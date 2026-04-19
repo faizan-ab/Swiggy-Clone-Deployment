@@ -1,4 +1,4 @@
-🚀 End-to-End DevOps CI/CD Pipeline on AWS EKS
+# 🚀 End-to-End DevOps CI/CD Pipeline on AWS EKS
 
 ### Production-Grade DevSecOps Pipeline using  
 **GitHub Actions • SonarQube • Docker • Kubernetes • Prometheus • Grafana**
@@ -195,4 +195,5 @@ $helm install monitoring prometheus-community/kube-prometheus-stack
 👨‍💻 Author
 
 Mohammed Abdul Faizan
-- Aspiring DevOps & Cloud Engineer
+
+Aspiring DevOps & Cloud Engineer
