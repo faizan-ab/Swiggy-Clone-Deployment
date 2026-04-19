@@ -102,7 +102,7 @@ The pipeline automates the complete workflow:
 ## 🚀 Setup Instructions
 
 ### 1️⃣ Clone Repo
-```bash
+```
 $git clone https://github.com/faizan-ab/Swiggy-Clone-Deployment.git
 $cd Swiggy-Clone-Deployment
 ```
@@ -116,50 +116,47 @@ $DockerHub credentials
 
 3️⃣ Run Pipeline
 ```
-Bash
 $git push origin main
 ```
 
 4️⃣ Deploy App
 ```
-Bash
 $kubectl apply -f deployment.yaml
 $kubectl apply -f service.yaml
 ```
 
 5️⃣ Access App
 ```
-Bash
 $kubectl get svc
 ```
 
 6️⃣ Monitoring Setup
-```Bash
+```
 $helm install monitoring prometheus-community/kube-prometheus-stack
 ```
 
 ## 📸 Screenshots
 
 ###🔹 CI/CD Pipeline
-![App-DNS](Screenshots/CI-pipeline.png)
+![App-DNS](screenshots/CI-pipeline.png)
 
 ###🔹 SonarQube
-![App-DNS](Screenshots/sonar.png)
+![App-DNS](screenshots/sonar.png)
 
 ###🔹 DockerHub
-![App-DNS](Screenshots/docker1.png)
+![App-DNS](screenshots/docker1.png)
 
 ###🔹 Kubernetes Pods
-![App-DNS](Screenshots/pods.png)
+![App-DNS](screenshots/pods.png)
 
 ###🔹 Service (LoadBalancer)
-![App-DNS](Screenshots/svc.png)
+![App-DNS](screenshots/svc.png)
 
 ###🔹 Live App
-![App-DNS](Screenshots/app.png)
+![App-DNS](screenshots/app.png)
 
 ###🔹 Grafana Dashboard
-![App-DNS](Screenshots/grafana.png)
+![App-DNS](screenshots/grafana.png)
 
 ---
 
@@ -180,21 +177,22 @@ $helm install monitoring prometheus-community/kube-prometheus-stack
 
 🏆 Key Achievements
 
-Built full DevSecOps pipeline
-Deployed scalable app on EKS
-Integrated CI/CD + Security
-Implemented monitoring system
+- Built full DevSecOps pipeline
+- Deployed scalable app on EKS
+- Integrated CI/CD + Security
+- Implemented monitoring system
 
 ---
 
 🚀 Future Enhancements
 
-ArgoCD (GitOps)
-Auto Scaling (HPA)
-HTTPS (Ingress + ALB)
+- ArgoCD (GitOps)
+- Auto Scaling (HPA)
+- HTTPS (Ingress + ALB)
 
 ---
 
 👨‍💻 Author
+
 Mohammed Abdul Faizan
-Aspiring DevOps & Cloud Engineer
+- Aspiring DevOps & Cloud Engineer
