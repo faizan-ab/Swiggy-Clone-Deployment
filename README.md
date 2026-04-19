@@ -1,7 +1,4 @@
-# Deployment-of-Swiggy-Clone-App
-![image](https://github.com/harshitsahu2311/Swiggy-Clone-Deployment/blob/main/Photos/wiggy.gif)
-
-# 🚀 End-to-End DevOps CI/CD Pipeline on AWS EKS
+🚀 End-to-End DevOps CI/CD Pipeline on AWS EKS
 
 ### Production-Grade DevSecOps Pipeline using  
 **GitHub Actions • SonarQube • Docker • Kubernetes • Prometheus • Grafana**
@@ -143,42 +140,61 @@ $helm install monitoring prometheus-community/kube-prometheus-stack
 
 ## 📸 Screenshots
 
-🔹 CI/CD Pipeline
-�
-🔹 SonarQube
-�
-🔹 DockerHub
-�
-🔹 Kubernetes Pods
-�
-🔹 Service (LoadBalancer)
-�
-🔹 Live App
-�
-🔹 Grafana Dashboard
-�
+###🔹 CI/CD Pipeline
+![App-DNS](Screenshots/CI-pipeline.png)
+
+###🔹 SonarQube
+![App-DNS](Screenshots/sonar.png)
+
+###🔹 DockerHub
+![App-DNS](Screenshots/docker1.png)
+
+###🔹 Kubernetes Pods
+![App-DNS](Screenshots/pods.png)
+
+###🔹 Service (LoadBalancer)
+![App-DNS](Screenshots/svc.png)
+
+###🔹 Live App
+![App-DNS](Screenshots/app.png)
+
+###🔹 Grafana Dashboard
+![App-DNS](Screenshots/grafana.png)
+
+---
+
 🧠 Challenges & Fixes
-Issue
-Solution
-SonarQube not reachable
-Fixed network config
-Disk full
-Cleaned Docker & resized volume
-Docker permission denied
-Added user to docker group
-Runner offline
-Restarted runner
-kubeconfig lost
-Reconfigured using AWS CLI
+
+| Issue                | Solution                     |
+| -------------------- | ---------------------------- |
+| SonarQube not reachable    | Fixed network config   |
+| Disk full            | Cleaned Docker & resized volume|
+| Docker permission denied  | Added user to docker group  |
+| Runner offline    | Restarted runner             |
+| kubeconfig lost       | Reconfigured using AWS CLI  |
+| Metrics server crash | Corrected args               |
+| EKS node failure     | Used flexible instance types |
+| Ingress DNS issues   | Fixed host configuration     |
+
+---
+
 🏆 Key Achievements
+
 Built full DevSecOps pipeline
 Deployed scalable app on EKS
 Integrated CI/CD + Security
 Implemented monitoring system
+
+---
+
 🚀 Future Enhancements
+
 ArgoCD (GitOps)
 Auto Scaling (HPA)
 HTTPS (Ingress + ALB)
+
+---
+
 👨‍💻 Author
-Mohammed Faizan
+Mohammed Abdul Faizan
 Aspiring DevOps & Cloud Engineer
